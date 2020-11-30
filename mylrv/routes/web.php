@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/data/all', function(){
+    return '{"data":"dddata"}';
+});
+
+Route::get('/data/all/ui', function(){
+    return view('hi');
+});
