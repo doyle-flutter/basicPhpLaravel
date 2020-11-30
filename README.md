@@ -10,5 +10,5 @@ PHP - Laravel
      - Route::get('/path', function(){return '{"data":"dddata"}'});
   - return HTML : resources/views/fileName.blade.php // 확장자 중요
      - Route::get('/path', function(){return view('fileName');});
-  - [코드]() / 영상 ... 준비중
+  - [Route 코드](https://github.com/doyle-flutter/basicPhpLaravel/blob/master/mylrv/routes/web.php) / [HTML 코드](https://github.com/doyle-flutter/basicPhpLaravel/tree/master/mylrv/resources/views)/ 영상 ... 준비중
 - [ ] 준비중
