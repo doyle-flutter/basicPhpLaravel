@@ -5,4 +5,10 @@ PHP - Laravel
 - [x] 2. laravel 설치 - [URL](https://laravel.com/)
 - [x] 3. laravel 프로젝트 생성 : > laravel new projectName
 - [x] 4. laravel 실행 : > php artisan serve
-- [ ] 5. 준비중
+- [x] 5. 라우터 Router : ./routes/web.php
+  - return JSON
+     - Route::get('/path', function(){return '{"data":"dddata"}'});
+  - return HTML : resources/views/fileName.blade.php // 확장자 중요
+     - Route::get('/path', function(){return view('fileName');});
+  - [코드]() / 영상 ... 준비중
+- [ ] 준비중
