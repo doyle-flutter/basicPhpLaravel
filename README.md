@@ -11,4 +11,6 @@ PHP - Laravel
   - return HTML : resources/views/fileName.blade.php // 확장자 중요
      - Route::get('/path', function(){return view('fileName');});
   - [Route 코드](https://github.com/doyle-flutter/basicPhpLaravel/blob/master/mylrv/routes/web.php) / [view - HTML 코드](https://github.com/doyle-flutter/basicPhpLaravel/tree/master/mylrv/resources/views)/ 영상 ... 준비중
+  - Path & QS & Redirect
+  - [코드](https://github.com/doyle-flutter/basicPhpLaravel/blob/master/mylrv/routes/web.php) 
 - [ ] 준비중
